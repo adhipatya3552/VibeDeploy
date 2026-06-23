@@ -24,7 +24,13 @@ You MUST generate the following files:
 CRITICAL RULES:
 - Write FULL, valid React (JSX) code. Do NOT write placeholders, placeholders like '// TODO' must be avoided. Use real inline Tailwind CSS styles.
 - Since we want to WOW the judges with visual excellence: use subtle gradients, modern dark mode design, clean margins, card structures, and soft shadows.
-- Simulate api integration using React `useState` and `useEffect` so that the app works in the browser out-of-the-box even without a running database, while displaying hooks that indicate how they call the FastAPI backend endpoints (e.g., fetch('/api/invoices')).
+- Make all cards translucent glass containers: use `bg-slate-900/40 backdrop-blur-xl border border-white/[0.06] shadow-[0_8px_32px_0_rgba(0,0,0,0.37)]`.
+- Buttons must use gradients with shadow glows: `bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 shadow-[0_4px_15px_rgba(99,102,241,0.3)] transition-all`.
+- Avoid long, ugly numeric IDs in tables. Truncate them or format them as clean short codes (e.g., `#INV-1002`, `#SUB-329` depending on the table context).
+- Style status badges as capsules with a small colored indicator dot inside (e.g. glowing emerald dot for paid/active, amber for pending/paused).
+- Include initials avatars for clients/users (e.g. "Acme Corp" -> "AC" circle).
+- Import 'next/head' in page files and load the Google Font 'Outfit'. In `tailwind.config.js`, configure `Outfit` as the primary `sans` font family.
+- Simulate api integration using React `useState` and `useEffect` so that the app works in the browser out-of-the-box even without a running database, while displaying hooks that indicate how they call the FastAPI backend endpoints (e.g., fetch('/api/invoices')). All interactive buttons and forms must modify local React state and work seamlessly.
 
 Output a JSON object containing:
 {
