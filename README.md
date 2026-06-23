@@ -227,8 +227,8 @@ Each generated project follows this layout inside the ZIP:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/adhipatya3552/vibedeploy.git
-cd vibedeploy
+git clone https://github.com/adhipatya3552/VibeDeploy.git
+cd VibeDeploy
 ```
 
 ### 2. Create a Virtual Environment
