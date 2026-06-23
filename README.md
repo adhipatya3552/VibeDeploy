@@ -9,6 +9,8 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-Generated-teal?style=for-the-badge&logo=fastapi)
 ![Next.js](https://img.shields.io/badge/Next.js-Generated-black?style=for-the-badge&logo=next.js)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-VibeDeploy%20on%20Streamlit-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://vibedeploy.streamlit.app/)
+
 **Describe your software idea in plain English — VibeDeploy's team of five specialized AI agents will design the database schema, write the FastAPI backend, build the Next.js frontend, craft the marketing copy, and package everything into a ready-to-run ZIP archive.**
 
 </div>
@@ -383,6 +385,10 @@ python main.py "A SaaS platform where restaurants can manage reservations, table
 
 ### Deploy to Streamlit Cloud
 
+VibeDeploy is fully deployed on Streamlit Cloud. You can access the live instance here:
+👉 **[vibedeploy.streamlit.app](https://vibedeploy.streamlit.app/)**
+
+If you want to host your own instance:
 1. Push your repository to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**
 3. Select your repo and set **Main file path** to `app.py`
